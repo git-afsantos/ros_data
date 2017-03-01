@@ -1,0 +1,6 @@
+Spinner,Total,Hard-coded,Reference,Function Call,Operator,Parameter,Median Value,Min. Value,Max. Value
+Rate,74,46,26,2,0,6,17.5,1.0,100
+WallRate,0,0,0,0,0,0,,,
+Duration,31,7,17,5,2,3,0.0,0.0,0.01
+WallDuration,0,0,0,0,0,0,,,
+Total,105,53,43,7,2,9,10,0.0,100

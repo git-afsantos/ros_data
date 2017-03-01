@@ -1,0 +1,17 @@
+Parameter Type,Count
+std::vector<int>,3
+canopen::MergedXmlRpcStruct,2
+std::string,300
+int,80
+double,233
+int32_t,1
+_frame_id_type,1
+_z_type,1
+_x_type,1
+bool,60
+std::basic_string<char>,2
+std::vector<std::string>,2
+const std::string,4
+XmlRpc::XmlRpcValue,13
+_y_type,1
+std::vector<double>,1

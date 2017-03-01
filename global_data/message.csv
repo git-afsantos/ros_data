@@ -1,0 +1,123 @@
+Message Type,Median Subscriber Queue,Min. Subscriber Queue,Max. Subscriber Queue,Median Publisher Queue,Min. Publisher Queue,Max. Publisher Queue
+yocs_msgs::ColumnList,1,1,1,,,
+yocs_msgs::WallList,1,1,1,,,
+sr_robot_msgs::contrlr,2,2,2,,,
+kobuki_msgs::DigitalOutput,10,10,10,,,
+cob_light::ColorRGBAArray,1,1,1,,,
+boost::function<void (const boost::shared_ptr<const SModel_robot_output_<allocator<void> > > &)>,1,1,1,,,
+cob_phidgets::DigitalSensor,10,10,10,,,
+boost::function<void (const boost::shared_ptr<const CModel_robot_output_<allocator<void> > > &)>,1,1,1,,,
+std_msgs::Float64MultiArrayPtr,1.0,1,1,,,
+cob_phidgets::AnalogSensor,10,10,10,,,
+sensor_msgs::Image,1.0,1,1,,,
+sensor_msgs::CameraInfo,1,1,1,,,
+cob_omni_drive_controller::WheelCommands,10,10,10,,,
+boost::function<void (const boost::shared_ptr<const PWM_<allocator<void> > > &)>,1,1,1,,,
+boost::function<void (const boost::shared_ptr<const Bool_<allocator<void> > > &)>,1,1,1,,,
+std_msgs::UInt16MultiArray,1.0,1,1,,,
+moveit_msgs::CollisionObject,1,1,1,,,
+boost::function<void (const boost::shared_ptr<const Drive_<allocator<void> > > &)>,1,1,1,,,
+std_msgs::StringPtr,1,1,1,,,
+boost::function<void (const boost::shared_ptr<const JointState_<allocator<void> > > &)>,1.0,1,1,,,
+sr_robot_msgs::config,2,2,2,,,
+robotiq_s_model_control::SModel_robot_input,10,10,10,,,
+kobuki_msgs::KeyboardInput,1,1,1,,,
+boost::function<void (const boost::shared_ptr<const MotorPacketCommand_<allocator<void> > > &)>,1,1,1,,,
+boost::function<void (const boost::shared_ptr<const Twist_<allocator<void> > > &)>,10,10,10,,,
+boost::function<void (const boost::shared_ptr<const Frame_<allocator<void> > > &)>,10.0,10,10,,,
+std_msgs::Float32,10,10,10,,,
+ar_track_alvar_msgs::AlvarMarkers,1.0,1,1,,,
+robotnik_msgs::ptz,1.0,1,1,,,
+kobuki_msgs::ExternalPower,10,10,10,,,
+control_msgs::JointControllerState,2,2,2,,,
+std_msgs::Empty,10,10,10,,,
+cob_control_msgs::ObstacleDistances,1,1,1,,,
+boost::function<void (const boost::shared_ptr<const Float64_<allocator<void> > > &)>,2,2,2,,,
+yocs_msgs::NavigationControl,1,1,1,,,
+trajectory_msgs::JointTrajectory::Ptr,1,1,1,,,
+kinova_msgs::JointVelocity,1,1,1,,,
+control_msgs::JointTrajectoryControllerStatePtr,1,1,1,,,
+sr_ronex_msgs::BoolArray,1,1,1,,,
+kinova_msgs::PoseVelocity,1,1,1,,,
+sr_ronex_msgs::GeneralIOState,1000,1000,1000,,,
+sensor_msgs::NavSatFix,1,1,1,,,
+sr_robot_msgs::JointMuscleValveControllerCommand,1,1,1,,,
+kobuki_msgs::Sound,10,10,10,,,
+boost::function<void (const boost::shared_ptr<const FollowJointTrajectoryFeedback_<allocator<void> > > &)>,1,1,1,,,
+industrial_msgs::RobotStatus,1.0,1,1,1.0,1,1
+can_msgs::Frame,,,,10.0,10,10
+gazebo_msgs::ModelState,,,,1,1,1
+sr_robot_msgs::sendupdate,2,2,2,5,2,5
+motoman_msgs::DynamicJointTrajectory,0.0,0,0,1.0,1,1
+tPointCloud,,,,1.0,1,1
+control_msgs::JointTrajectoryControllerState,1.0,1,1,1.0,1,1
+cob_msgs::EmergencyStopState,1.0,1,1,1.0,1,1
+std_msgs::Int16MultiArray,,,,100,100,100
+kobuki_msgs::ButtonEvent,,,,100,100,100
+std_msgs::String,1,1,10,1.0,1,100
+sr_ronex_msgs::PWM,,,,1000,1000,1000
+trajectory_msgs::JointTrajectory,0,0,1,1,1,1
+grizzly_msgs::Drive,1,1,1,1.0,1,1
+cob_perception_msgs::Float64ArrayStamped,,,,1.0,1,1
+kobuki_msgs::WheelDropEvent,10.0,10,10,100,100,100
+geometry_msgs::WrenchStamped,,,,2,1,512
+kobuki_msgs::DockInfraRed,,,,100,100,100
+yocs_msgs::WaypointList,1.0,1,1,5,5,5
+nav_msgs::Odometry,1,1,100,50,1,1000
+sr_robot_msgs::joints_data,,,,2,2,2
+roboteq_msgs::Command,1,1,1,1,1,1
+geometry_msgs::TwistStamped,,,,1,1,1
+kinova_msgs::JointAngles,1.0,1,1,2.0,2,2
+aubo_msgs::JointPos,1000,1000,1000,1,1,1
+sensor_msgs::JointState,1.0,1,1000,1,1,100
+aubo_msgs::TraPoint,1000,1000,1000,1000,1000,1000
+aubo_msgs::GoalPoint,1000,1000,1000,1,1,1
+diagnostic_msgs::DiagnosticArray,1.0,1,1,1,1,2
+GripperOutput,,,,1,1,1
+yocs_msgs::NavigationControlStatus,,,,1,1,1
+sensor_msgs::PointCloud2,1,1,1,1,1,10
+geometry_msgs::PoseWithCovarianceStamped,,,,1,1,1
+control_msgs::FollowJointTrajectoryFeedback,1,1,1,1.0,1,1
+kobuki_msgs::CliffEvent,10.0,10,10,100,100,100
+roboteq_msgs::Status,,,,1,1,1
+cob_msgs::PowerState,,,,1,1,1
+kinova_msgs::KinovaPose,1,1,1,2,2,2
+yocs_msgs::ARPairList,1,1,1,1,1,1
+sensor_msgs::Range,10,10,10,0,0,0
+kobuki_msgs::Led,10.0,10,10,10,10,10
+stereo_msgs::DisparityImage,1.0,1,1,1.0,1,1
+ackermann_msgs::AckermannDriveStamped,1,1,1,1,1,1
+visualization_msgs::MarkerArray,,,,1,1,5
+kobuki_msgs::VersionInfo,,,,100,100,100
+schunk_sdh::TactileSensor,,,,1.0,1,1
+geometry_msgs::PoseArray,1.0,1,1,1.0,1,1
+tImage,,,,1.0,1,1
+sensor_msgs::Joy,5.5,1,10,1,1,1
+std_msgs::Float64MultiArray,1.0,1,1,1.0,1,1
+kobuki_msgs::MotorPower,10,10,10,1,1,1
+roboteq_msgs::Feedback,1,1,1,1,1,1
+robotiq_force_torque_sensor::ft_sensor,100,100,100,512,512,512
+std_msgs::Bool,1.0,1,1,5.5,1,10
+std_msgs::Float64,1,1,1,50,1,50
+guardian_node::guardian_state,,,,30.0,30,30
+kobuki_msgs::SensorState,10,10,10,100,100,100
+kobuki_msgs::ControllerInfo,10,10,10,100,100,100
+sensor_msgs::Imu,1,1,1,100.0,100,100
+geometry_msgs::TransformStamped,,,,100,100,100
+motoman_msgs::DynamicJointTrajectoryFeedback,,,,1.0,1,1
+geometry_msgs::PoseStamped,,,,1,1,2
+diagnostic_msgs::DiagnosticStatus,1.0,1,1,1.0,1,1
+pcl::pcl::struct pcl::PointXYZ,,,,1.0,1,1
+kinova_msgs::FingerPosition,,,,2,2,2
+GripperInput,1,1,1,100.0,100,100
+sensor_msgs::LaserScan,5.5,1,1000,1,1,50
+tCameraInfo,,,,1,1,1
+yocs_msgs::TrajectoryList,1,1,1,5,5,5
+kobuki_msgs::DigitalInputEvent,,,,100,100,100
+geometry_msgs::Twist,1.0,1,10,1.0,1,100
+visualization_msgs::Marker,,,,1,1,1
+pcl::pcl::struct pcl::PointXYZRGB,,,,1,1,1
+std_msgs::Float32MultiArray,1000,1,1000,1,1,1
+kobuki_msgs::RobotStateEvent,,,,100,100,100
+kobuki_msgs::BumperEvent,10,10,10,100,100,100
+kobuki_msgs::PowerSystemEvent,,,,100,100,100
