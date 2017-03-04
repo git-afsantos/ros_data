@@ -1,0 +1,13 @@
+Feature,Count,Percent
+Literal Publisher-Subscriber,83,47.43%
+Variable Publisher-Subscriber,34,19.43%
+Nested Publisher-Subscriber,19,10.86%
+Literal Service,33,18.86%
+Variable Service,2,1.14%
+Nested Service,2,1.14%
+Spinners,64,36.57%
+Custom Messages,67,38.29%
+ROS Parameters,87,49.71%
+Basic Profile,121,69.14%
+Variable Profile,140,80.00%
+Nested Profile,125,71.43%
