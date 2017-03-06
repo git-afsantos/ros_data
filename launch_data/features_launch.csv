@@ -1,4 +1,4 @@
-Launch File,Literal PubSub,Other PubSub,Nested PubSub,Literal Service,Other Service,Nested Service,Spinners,Custom Msgs,Params,File Params,Cmd Params,Nodelets,Remaps,Non-const Args,Env Vars,Includes
+Launch File,Literal Publisher-Subscriber,Other Publisher-Subscriber,Nested Publisher-Subscriber,Literal Service,Other Service,Nested Service,Spinners,Custom Messages,Params,File Params,Cmd Params,Nodelets,Remaps,Non-const Args,Env Vars,Includes
 rbcar_sim/rbcar_sim_bringup/launch/purepursuit_marker.launch,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 rb1_base_sim/rb1_base_2dnav/launch/navigation_local/move_base_local.launch,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
 turtlebot_simulator/turtlebot_stage/launch/turtlebot_in_stage.launch,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1

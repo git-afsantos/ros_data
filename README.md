@@ -174,3 +174,27 @@ These statistics regard the use of various ROS launch features. They were extrac
 ### Feature Data
 
 These statistics regard the presence (`1`) or absence (`0`) of certain features within an aggregation scope (package, launch, global). They can be found in [`features`](./global_data/features.csv), [`features_launch`](./launch_data/features_launch.csv) and [`features_pkg`](./package_data/features_pkg.csv).
+
+  - **Literal Publisher-Subscriber:** whether there is an occurrence of `advertise` or `subscribe` with a literal topic name.
+  - **Other Publisher-Subscriber:** whether there is an occurrence of `advertise` or `subscribe` with a non-literal topic name.
+  - **Nested Publisher-Subscriber:** whether there is an occurrence of `advertise` or `subscribe` with a control flow nesting above zero.
+  - **Literal Service:** whether there is an occurrence of `advertiseService` or `serviceClient` with a literal service name.
+  - **Other Service:** whether there is an occurrence of `advertiseService` or `serviceClient` with a non-literal service name.
+  - **Nested Service:** whether there is an occurrence of `advertiseService` or `serviceClient` with a control flow nesting above zero.
+  - **Spinners:** whether there is an occurrence of a spinner.
+  - **Custom Messages:** whether custom message or service types are used.
+  - **Params:** whether there are readings or changes to the ROS parameter server (`getParam`, `setParam`, etc.).
+  - **File Params:** whether there are parameters defined from data files.
+  - **Cmd Params:** whether there are parameters defined from command-line commands.
+  - **Nodelets:** whether nodelets are used.
+  - **Remaps:** whether remappings are used.
+  - **Non-const Args:** whether there are `arg` tags in launch files without a `value`.
+  - **Env Vars:** whether environment variables are used in launch files.
+  - **Includes:** whether launch files include other launch files.
+  - **Basic Profile:** the amount of packages that have *Other Publisher-Subscriber*, *Nested Publisher-Subscriber*, *Other Service* and *Nested Service* set to zero.
+  - **Variable Profile:** the amount of packages that have *Nested Publisher-Subscriber* and *Nested Service* set to zero.
+  - **Nested Profile:** the amount of packages that have *Other Publisher-Subscriber* and *Other Service* set to zero.
+
+### Other Data
+
+These statistics are largely experimental and may not reveal much insight. Namely, there is a relation between [Message Types and Queue Sizes](./global_data/message.csv), or the amount of [functions that each function calls](./global_data/other.csv).
