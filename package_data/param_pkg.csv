@@ -1,4 +1,4 @@
-Package,Total Read Parameters,Hard-coded Parameters,Global Parameters,Uses Default Value,Total Modified Parameters
+Package,Total Read Parameters,Literal Parameters,Global Parameters,Uses Default Value,Total Modified Parameters
 motoman_driver,19,19,0,19,0
 robotiq_joint_state_publisher,1,1,0,1,0
 sr_hand,17,10,0,10,0

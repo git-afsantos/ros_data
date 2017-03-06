@@ -1,4 +1,4 @@
-Package,Subscribe Calls,Hard-coded Topics,Reference Topics,Function Call Topics,Operator Topics,Param Topics,Global Topics,Repeating Topics,Use of TransportHints,Function Callbacks,Method Callbacks,Boost Function Callbacks,Hard-coded Queue Sizes,Reference Queue Sizes,Function Call Queue Sizes,Operator Queue Sizes,Param Queue Sizes,Infinite Queues,Median Queue Size,Min. Queue Size,Max. Queue Size,Median Control Nesting,Min. Control Nesting,Max. Control Nesting,Custom Msgs
+Package,Subscribe Calls,Literal Topics,Reference Topics,Function Call Topics,Operator Topics,Param Topics,Global Topics,Repeating Topics,Use of TransportHints,Function Callbacks,Method Callbacks,Boost Function Callbacks,Literal Queue Sizes,Reference Queue Sizes,Function Call Queue Sizes,Operator Queue Sizes,Param Queue Sizes,Infinite Queues,Median Queue Size,Min. Queue Size,Max. Queue Size,Median Control Nesting,Min. Control Nesting,Max. Control Nesting,Custom Msgs
 motoman_driver,12,7,0,5,0,0,0,4,0,0,9,3,12,0,0,0,0,6,0.5,0,1,0.5,0,1,8
 robotiq_joint_state_publisher,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,10,10,10,0,0,0,1
 sr_hand,13,1,9,3,0,0,1,0,0,0,10,3,13,0,0,0,0,0,2,2,2,0,0,0,12

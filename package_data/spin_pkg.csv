@@ -1,4 +1,4 @@
-Package,Spinner,Total,Hard-coded,Reference,Function Call,Operator,Parameter,Median Value,Min. Value,Max. Value
+Package,Spinner,Total,Literal,Reference,Function Call,Operator,Parameter,Median Value,Min. Value,Max. Value
 motoman_driver,Rate,0,0,0,0,0,0,,,
 motoman_driver,WallRate,0,0,0,0,0,0,,,
 motoman_driver,Duration,1,1,0,0,0,0,0.0,0.0,0.0

@@ -1,2 +1,2 @@
-Total Services,Hard-coded Services,Reference Services,Function Call Services,Operator Services,Param Services,Global Services,Service Servers,Repeating Servers,Function Callbacks,Method Callbacks,Boost Function Callbacks,Median Control Nesting,Min. Control Nesting,Max. Control Nesting,Service Clients,Repeating Clients,Median Control Nesting,Min. Control Nesting,Max. Control Nesting,Open Services
-135,126,0,5,0,0,4,121,64,5,115,1,0,0,1,14,2,0.0,0,3,56
+Total Services,Literal Services,Reference Services,Function Call Services,Operator Services,Param Services,Global Services,Service Servers,Repeating Servers,Function Callbacks,Method Callbacks,Boost Function Callbacks,Median Control Nesting,Min. Control Nesting,Max. Control Nesting,Service Clients,Repeating Clients,Median Client Control Nesting,Min. Client Control Nesting,Max. Client Control Nesting
+135,126,0,5,0,0,4,121,64,5,115,1,0,0,1,14,2,0.0,0,3

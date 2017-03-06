@@ -1,4 +1,4 @@
-Launch File,Total Read Parameters,Hard-coded Parameters,Global Parameters,Uses Default Value,Total Modified Parameters
+Launch File,Total Read Parameters,Literal Parameters,Global Parameters,Uses Default Value,Total Modified Parameters
 cob_command_tools/cob_interactive_teleop/launch/interactive_teleop.launch,7,0,0,0,0
 cob_robots/cob_bringup/robots/raw3-5.launch,123,122,1,84,0
 kobuki/kobuki_node/launch/test_get_odom.launch,7,7,0,7,0
