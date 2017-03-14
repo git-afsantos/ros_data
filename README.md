@@ -32,7 +32,7 @@ These statistics regard the usage of ROS publishers. They were extracted from C+
   - **Function Call Topics:** the total number of topic names in the form of function calls.
   - **Operator Topics:** the total number of topic names in the form of unary/binary operators.
   - **Param Topics:** the total number of topic names that may come from the ROS parameter server.
-  - **Global Topics:* the total number of Literal Topics that use global names.
+  - **Global Topics:** the total number of Literal Topics that use global names.
   - **Repeating Topics:** the total number of repeating Literal Topic names within `advertise` calls.
   - **Latching Publishers:** the total number of `advertise` calls that use `latch = true`.
   - **Use of SubscriberStatus:** the total number of `advertise` calls that set callbacks for subscriber status.
@@ -64,7 +64,7 @@ These statistics regard the usage of ROS subscribers. They were extracted from C
   - **Function Call Topics:** the total number of topic names in the form of function calls.
   - **Operator Topics:** the total number of topic names in the form of unary/binary operators.
   - **Param Topics:** the total number of topic names that may come from the ROS parameter server.
-  - **Global Topics:* the total number of Literal Topics that use global names.
+  - **Global Topics:** the total number of Literal Topics that use global names.
   - **Repeating Topics:** the total number of repeating Literal Topic names within `subscribe` calls.
   - **Use of TransportHints:** the total number of `subscribe` calls that define an explicit transport layer.
   - **Function Callbacks:** the total number of callbacks in the form of a regular function.
